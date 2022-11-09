@@ -22,18 +22,20 @@ Go back and follow the same steps for your [UI-III-Flexbox project](https://gith
 
 In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
 
-- [ ] Add your PM as a collaborator to your fork. 
-- [ ] Go into your project folder, make a new branch `firstname-lastname`
-- [ ] Add your first and last name to the README.md file in the project and save.
-- [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
-- [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+- [X] Add your PM as a collaborator to your fork. 
+- [X] Go into your project folder, make a new branch `firstname-lastname`
+- [X] Add your first and last name to the README.md file in the project and save.
+- [X] add/commit/and push to your own branch  **Be sure to push to your branch!**
+- [X] Create a Pull-Request to submit your work
+  - [X] Use your own student fork as the base (compare across forks, base-fork -> master).
+  - [X] Add your PM as a reviewer on the Pull-Request
+- [X] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+- [X] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
+  - [X] Research and understand what a `merge conflict` is and how to resolve it.
+  A: A Merge conflict is when the same line of code has been altered by people on different branches. To resolve it you need to decide which branches changes will remain or make an update that has features from both branch's edits. Be sure to delete the '<<<<<<<<' '=========' '>>>>>>>>'symbols in between the merge conflict. Finally merge the conflict, which will give you option to save on the current branch if it is the head or create a new branch.
+
   - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
   - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
 
