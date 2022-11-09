@@ -32,8 +32,10 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [X] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Stretch
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+- [X] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
+  - [X] Research and understand what a `merge conflict` is and how to resolve it.
+  A: A Merge conflict is when the same line of code has been altered by people on different branches. To resolve it you need to decide which branches changes will remain or make an update that has features from both branch's edits. Be sure to delete the '<<<<<<<<' '=========' '>>>>>>>>'symbols in between the merge conflict. Finally merge the conflict, which will give you option to save on the current branch if it is the head or create a new branch.
+
   - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
   - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
 
